@@ -67,6 +67,7 @@ set pidsum_limit_yaw = 400
     	set simplified_dterm_filter = ON
     	set simplified_dterm_filter_multiplier = 80
 		set gyro_lpf1_static_hz = 0
+		set gyro_lpf1_dyn_min_hz = 0
 		set gyro_lpf2_type = PT2
     	set dyn_notch_count = 3
     	set dyn_notch_min_hz = 65
