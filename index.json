@@ -4877,6 +4877,26 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.4/tune/barelyfly/barelyfly_8-9in.txt",
+      "hash": "6e1b60a32f3b784fa6d723f466cc8fb7785fd7010596ac6111ec8936c85e22cd",
+      "title": "Barely Fly preset for drones that Barely Fly 8\"/9\" (1500-3000g AUW)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "8in",
+        "9in",
+        "8\"",
+        "9\"",
+        "heavy",
+        "long range"
+      ],
+      "author": "Barely Fly?",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.4/tune/barracuda_race_tune.txt",
       "hash": "64941466525dab42ad27fd0b3512c8a39e82a44fd1edcbf71faf80ce76b5d03f",
       "title": "Barracuda Racer Tune",
