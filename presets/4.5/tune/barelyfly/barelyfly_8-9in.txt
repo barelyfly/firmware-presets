@@ -55,8 +55,8 @@ set pidsum_limit_yaw = 400
     	set dterm_lpf1_type = PT2
     	set dterm_lpf1_static_hz = 60
     	set dyn_notch_count = 2
-    	set dyn_notch_min_hz = 60
-    	set dyn_notch_max_hz = 600
+    	set dyn_notch_min_hz = 55
+    	set dyn_notch_max_hz = 200
     	set yaw_lowpass_hz = 100
     #$ OPTION END
 
@@ -70,8 +70,8 @@ set pidsum_limit_yaw = 400
     	set gyro_lpf1_dyn_min_hz = 0
     	set gyro_lpf2_type = PT2
     	set dyn_notch_count = 3
-    	set dyn_notch_min_hz = 65
-    	set dyn_notch_max_hz = 600
+    	set dyn_notch_min_hz = 60
+    	set dyn_notch_max_hz = 200
     	set yaw_lowpass_hz = 100
     #$ OPTION END
 
