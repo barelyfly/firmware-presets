@@ -21,7 +21,7 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION:
 #$ DESCRIPTION: (c) UAV Tech - framework of the preset, Nazar K, Barely Fly - specific values
-#$ WARNING: До того як увімкнути "RPM фільтрацію", двонаправлени DSHOT має бути налаштованим.  Якщо ви не прошивали ESC, нажміть "CANCEL" і налаштуйте це спочатку ESC (без пропелерів).
+#$ WARNING: До того як увімкнути "RPM фільтрацію", двонаправлений DSHOT має бути налаштованим.  Якщо ви не прошивали ESC, нажміть "CANCEL" і налаштуйте це спочатку ESC (без пропелерів).
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/XXXXXXX
 #$ INCLUDE: presets/4.4/tune/defaults.txt
 #$ INCLUDE: presets/4.3/filters/defaults.txt
@@ -51,7 +51,8 @@ set pidsum_limit_yaw = 400
     	set simplified_dterm_filter_multiplier = 80
     	set gyro_lpf1_type = PT2
     	set gyro_lpf2_type = PT2
-    	set dterm_lpf1_type = PT2
+    	set dterm_lpf1_type = PT3
+    	set dterm_lpf2_type = PT3
     	set dterm_lpf1_static_hz = 60
     	set dyn_notch_count = 2
     	set dyn_notch_min_hz = 55
@@ -68,6 +69,8 @@ set pidsum_limit_yaw = 400
     	set gyro_lpf1_static_hz = 0
     	set gyro_lpf1_dyn_min_hz = 0
     	set gyro_lpf2_type = PT2
+    	set dterm_lpf1_type = PT2
+    	set dterm_lpf2_type = PT2
     	set dyn_notch_count = 3
     	set dyn_notch_min_hz = 60
     	set dyn_notch_max_hz = 200
